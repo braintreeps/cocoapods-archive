@@ -1,1 +1,1 @@
-require 'pod/command/spec/archive'
+require 'pod/command/lib/archive'
