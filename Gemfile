@@ -10,4 +10,5 @@ group :development do
   # gem 'mocha-on-bacon'
   # gem 'mocha'
   # gem 'prettybacon'
+  gem 'pry'
 end
