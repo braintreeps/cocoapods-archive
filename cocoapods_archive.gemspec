@@ -8,8 +8,21 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsArchive::VERSION
   spec.authors       = ["Mickey Reiss"]
   spec.email         = ["mickey@venmo.com"]
-  spec.description   = %q{A short description of cocoapods-archive.}
-  spec.summary       = %q{A longer description of cocoapods-archive.}
+  spec.description   = %q{"Archive your Pod as a static library"}
+  spec.summary       = <<-EOF
+
+          Creates an archive containing everything one would need to integrate the CocoaPod in the current working directory without using CocoaPods:
+
+          - A `.a` static library
+
+          - A number of public `.h` headers
+
+          - An `.xcconfig` file with the appropriate integration configuration settings
+
+          - A README with integration instructions
+
+          This tool is useful if your primary distribution mechanism is CocoaPods but a significat portion of your userbase does not yet use dependency management. Instead, they receive a closed-source version with manual integration instructions.
+          EOF
   spec.homepage      = "https://github.com/braintreeps/cocoapods-archive"
   spec.license       = "MIT"
 

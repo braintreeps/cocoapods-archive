@@ -10,7 +10,7 @@ module Pod
         using Camelizable
         BUILD_ROOT = Pathname.new("/tmp/CocoaPods/Archive")
 
-        self.summary = "Archives your Pod in as a static library"
+        self.summary = "Archives your Pod as a static library"
 
         self.description = <<-DESC
           Creates an archive containing everything one would need to integrate the CocoaPod in the current working directory without using CocoaPods:
