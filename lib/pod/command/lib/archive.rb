@@ -26,9 +26,7 @@ module Pod
           This tool is useful if your primary distribution mechanism is CocoaPods but a significat portion of your userbase does not yet use dependency management. Instead, they receive a closed-source version with manual integration instructions.
         DESC
 
-        self.arguments = [
-          CLAide::Argument.new("[NAME]", :optional)
-        ]
+        self.arguments = [ ["[NAME]", :optional] ]
 
         attr_accessor :spec
 
