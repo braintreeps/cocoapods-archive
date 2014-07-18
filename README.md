@@ -5,8 +5,6 @@ A CocoaPods plugin that archives your pod into a .a file for distribution
 
 This plugin is for CocoaPods *developers*, who need to distribute their Pods not only as CocoaPods, but also as static libraries. Some users just like it the good old fashioned way.
 
-![Demo](CocoaPods-Archive-Demo.gif)
-
 There are still a number of advantages to developing against a `podspec`, even if your public distribution is closed-source:
 
 1. You can easily use the Pod in-house open-source, which makes step-by-step debugging a breeze.
