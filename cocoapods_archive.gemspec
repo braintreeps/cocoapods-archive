@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsArchive::VERSION
   spec.authors       = ["Mickey Reiss"]
   spec.email         = ["mickey@venmo.com"]
-  spec.description   = %q{"Archive your Pod as a static library"}
+  spec.description   = %q{"A CocoaPods plugin that enables you to archive your Pod as a static library"}
   spec.summary       = <<-EOF
 
           Creates an archive containing everything one would need to integrate the CocoaPod in the current working directory without using CocoaPods:
