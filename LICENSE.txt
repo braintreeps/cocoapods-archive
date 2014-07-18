@@ -1,4 +1,4 @@
-Copyright (c) 2014 Braintree <code@getbraintree.com>
+Copyright (c) 2014 Braintree, a division of PayPal, Inc.
 
 MIT License
 

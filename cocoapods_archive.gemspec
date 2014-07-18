@@ -6,11 +6,11 @@ require 'cocoapods_archive.rb'
 Gem::Specification.new do |spec|
   spec.name          = "cocoapods-archive"
   spec.version       = CocoapodsArchive::VERSION
-  spec.authors       = ["Braintree"]
-  spec.email         = ["code@getbraintree.com"]
+  spec.authors       = ["Mickey Reiss"]
+  spec.email         = ["mickey@venmo.com"]
   spec.description   = %q{A short description of cocoapods-archive.}
   spec.summary       = %q{A longer description of cocoapods-archive.}
-  spec.homepage      = "https://github.com/EXAMPLE/cocoapods-archive"
+  spec.homepage      = "https://github.com/braintreeps/cocoapods-archive"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
